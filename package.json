@@ -1,0 +1,32 @@
+{
+  "name": "energetix",
+  "version": "0.1.0",
+  "description": "A reactive energy management library using dagify for managing state and updates.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "brittle tests/**/*.test.js"
+  },
+  "keywords": [
+    "reactive",
+    "energy",
+    "dagify",
+    "state management",
+    "javascript",
+    "node",
+    "event-driven"
+  ],
+  "dependencies": {
+    "dagify": "^1.6.24"
+  },
+  "author": "Zachary Griffee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharygriffee/energetix.git"
+  },
+  "devDependencies": {
+    "brittle": "^3.12.0"
+  }
+}
