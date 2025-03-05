@@ -1,9 +1,9 @@
 import { test } from "brittle";
-import { energyConsumer, energyProducer } from "../lib/energyStrategyNodes.js";
+import { energyConsumer, energyProducer } from "../lib/strategies/energyStrategyNodes.js";
 import { createExecutionNode, createNode, NO_EMIT, trigger } from "dagify";
 import { sleep } from "./helpers/sleep.js";
-import { createEnergyNode } from "../lib/createEnergyNode.js";
-import { energyTypes } from "../lib/energyTypes.js";
+import { createEnergyNode } from "../lib/state-nodes/createEnergyNode.js";
+import { energyTypes } from "../lib/types/energyTypes.js";
 
 // Helper to set the node's type after creation.
 // If the current value does not satisfy the new type, it resets the internal value to NO_EMIT.

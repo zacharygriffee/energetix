@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "bare:test": "bare tests/basic.test.js",
     "test": "brittle tests/**/*.test.js"
   },
   "keywords": [
