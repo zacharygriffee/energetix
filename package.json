@@ -1,6 +1,6 @@
 {
   "name": "energetix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A reactive energy management library using dagify for managing state and updates.",
   "main": "index.js",
   "type": "module",
